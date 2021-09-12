@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "qode ./index.js",
+    "debug": "qode --inspect ./index.js",
     "lint": "eslint . --fix"
   },
   "dependencies": {
